@@ -1,0 +1,47 @@
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(blue, pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+p {
+  font-weight: bold;
+  font-style: italic;
+  font-size: large;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(74, 11, 7, 0.5);
+}
+.box1 {
+  width: 200px;
+  height: 200px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(to bottom right, red, blue, pink);
+}
+.box2 {
+  width: 200px;
+  height: 200px;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(red, blue, pink);
+  margin: 50px;
+}
+.box3 {
+  width: 600px;
+  height: 600px;
+  background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+  margin: 50px;
+}
+.box4 {
+  width: 500px;
+  height: 500px;
+  background: #008552;
+  box-shadow: 0px 0px 30px gray;
+  margin: 50px;
+}
+h2 {
+  font-size: 100px;
+  color: azure;
+  text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
